@@ -9,8 +9,8 @@ from datetime import datetime
 df = pd.read_csv("../../clean_data/cleaned_sales_data_2025.csv", parse_dates=["Date"])
 
 # ------------------- UI Config -------------------
-st.set_page_config(page_title="Smart Sales Insights", layout="wide")
-st.title(" Smart Sales Insights Engine")
+st.set_page_config(page_title="Sales Metrics Forecasting Platform", layout="wide")
+st.title(" Sales Metrics Forecasting Platform")
 st.markdown("###  Empowering Sales Decisions with Data")
 
 # ------------------- KPI Cards -------------------
