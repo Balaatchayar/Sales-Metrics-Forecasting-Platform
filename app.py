@@ -6,7 +6,7 @@ from prophet.plot import plot_plotly
 from datetime import datetime
 
 # Load cleaned data
-df = pd.read_csv("../../clean_data/cleaned_sales_data_2025.csv", parse_dates=["Date"])
+df = pd.read_csv("clean_data/cleaned_sales_data_2025.csv")
 
 # ------------------- UI Config -------------------
 st.set_page_config(page_title="Sales Metrics Forecasting Platform", layout="wide")
